@@ -1,2 +1,6 @@
 /notes
 /DailyJournalPy
+# Python
+__pycache__/
+*.pyc
+*.pyo
