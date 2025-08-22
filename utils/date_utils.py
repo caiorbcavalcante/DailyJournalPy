@@ -7,7 +7,5 @@ def checkDate(data_str, formato="%d/%m/%Y"):
     except ValueError:
         return False  # Data inválida
     
-dateArray = checkDate("25/04/2006")
-
-
+date = checkDate("25/04/2006")
 
