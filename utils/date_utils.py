@@ -3,7 +3,7 @@ from datetime import datetime
 def checkDate(data_str, formato="%d/%m/%Y"):
     try:
         date = datetime.strptime(data_str, formato)
-        return [date.year, date.month, date.day]  # Data válida
+        return date  # Data válida
     except ValueError:
         return False  # Data inválida
     
