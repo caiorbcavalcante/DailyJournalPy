@@ -7,7 +7,7 @@ def checkDate(data_str, formato="%d/%m/%Y"):
     except ValueError:
         return False  # Data inválida
     
-date = checkDate("25/04/2006")
+# date = checkDate("25/04/2006")
 
 def getMonth(dateMonth):
     meses = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho",
